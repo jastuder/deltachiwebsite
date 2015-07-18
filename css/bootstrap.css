@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding-top: 10px;
   height:100%;
-  background:center no-repeat fixed url('../img/cremebg.jpg');
+  background:center no-repeat fixed url('../img/grundgebg.jpg');
   background-size: cover;
 }
 article,
@@ -6915,8 +6915,8 @@ button.close {
 }
 
 .maincontent {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .designedby {
@@ -6928,6 +6928,44 @@ button.close {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.socialmedia {
+  border-radius: 5px;
+  background: #ca3d31;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  height: 700px;
+}
+
+.socialmedia > .title {
+  color: #f1bd19;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.upcomingevents {
+  border-radius: 5px;
+  background: #ca3d31;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+.upcomingevents > .title {
+  color: #f1bd19;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.maincontent > .row > .col-lg-9 > hr {
+  border-color: #ca3d31;
 }
 
 .designedby > .row > .col-lg-7 > a {
