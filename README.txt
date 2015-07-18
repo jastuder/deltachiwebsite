@@ -1,3 +1,6 @@
+Current Stage: Setting up website content
+Next Stage: Refactor and styling the website
+
 Typography
 ----------
 Headings: Crimson
