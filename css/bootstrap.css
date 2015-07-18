@@ -6915,8 +6915,18 @@ button.close {
 }
 
 .maincontent {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.maincontent > .row > .col-lg-9 > .title {
+  border-radius: 5px;
+  background: #ca3d31;
+  color: #f1bd19;
+  border: 2px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 38px;
 }
 
 .designedby {
@@ -6934,9 +6944,8 @@ button.close {
   border-radius: 5px;
   background: #ca3d31;
   color: white;
-  padding: 20px;
-  width: 300px;
-  height: 500px;
+  padding: 10px;
+  border: 2px solid black;
 }
 
 .socialmedia > .title {
@@ -6951,9 +6960,8 @@ button.close {
   border-radius: 5px;
   background: #ca3d31;
   color: white;
-  padding: 20px;
-  width: 300px;
-  height: 200px;
+  padding: 10px;
+  border: 2px solid black;
 }
 
 .upcomingevents > .title {
