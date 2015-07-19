@@ -16,3 +16,10 @@ SKY: #95b4b1
 CREAM: #e7dbb4
 COFFEE: #d17f29
 AQUA: #00a98e
+
+Software Used
+-------------
+Editor: PhpStorm
+Source Control: GitHub
+Testing: Travis CI
+
