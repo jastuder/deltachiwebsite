@@ -9,7 +9,7 @@ Body: Montserrat
 
 Color Guide
 -----------
-RED: #ca3d31
+RED: 4
 BUFF: #f1bd19
 NAVY: #11375c
 SKY: #95b4b1
