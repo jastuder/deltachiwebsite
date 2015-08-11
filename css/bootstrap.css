@@ -1634,6 +1634,8 @@ header nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
+  font-family: "Gotham";
+  font-size: 14px;
   color: #ca3d31;
 }
 
@@ -6948,10 +6950,6 @@ button.close {
 
 .panel-title > a {
   font-size: 30px;
-}
-
-.panel-title > a:visited {
-
 }
 
 .panel-title > a:hover {
