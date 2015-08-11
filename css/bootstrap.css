@@ -5,12 +5,13 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: "Gotham";
   background-color: white;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
+  font-family: "Gotham";
   margin: 0;
   padding-top: 10px;
   height:100%;
@@ -267,11 +268,22 @@ th {
   }
 }
 @font-face {
+  font-family: 'Chronical';
+  src: url("../fonts/ChronicleDisp-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/Gotham-Book.otf");
+}
+
+@font-face {
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -6016,6 +6028,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
+  font-family: "Gotham";
   z-index: 1050;
   display: none;
   overflow: hidden;
@@ -6901,12 +6914,14 @@ button.close {
 .footer {
   background-color: black;
   color: white;
+  font-family: "Gotham";
   padding-left: 50px;
   padding-right: 50px;
 }
 
 .footer > .row > .col-lg-4 > h3 {
   text-align: center;
+  font-family: "Chronical";
 }
 
 .footer > .row > .col-lg-4 > hr {
@@ -6916,12 +6931,14 @@ button.close {
 
 .maincontent {
   padding-left: 40px;
+  font-family: "Gotham";
   padding-right: 40px;
 }
 
 .maincontent > .row > .col-lg-9 > .title {
   border-radius: 5px;
   background: #ca3d31;
+  font-family: "Chronical";
   color: #f1bd19;
   border: 2px solid black;
   text-align: center;
@@ -6951,6 +6968,7 @@ button.close {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
+  font-family: "Gotham";
   padding-right: 10px;
 }
 
@@ -6958,6 +6976,7 @@ button.close {
   border-radius: 5px;
   background: #ca3d31;
   color: white;
+  font-family: "Gotham";
   padding: 10px;
   border: 2px solid black;
 }
@@ -6965,6 +6984,7 @@ button.close {
 .socialmedia > .title {
   color: #f1bd19;
   text-align: center;
+  font-family: "Chronical";
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
@@ -6973,6 +6993,7 @@ button.close {
 .upcomingevents {
   border-radius: 5px;
   background: #ca3d31;
+  font-family: "Gotham";
   color: white;
   padding: 10px;
   border: 2px solid black;
@@ -6982,6 +7003,7 @@ button.close {
   color: #f1bd19;
   text-align: center;
   text-transform: uppercase;
+  font-family: "Chronical";
   font-weight: bold;
   font-size: 20px;
 }
