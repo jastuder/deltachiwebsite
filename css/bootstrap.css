@@ -6929,6 +6929,20 @@ button.close {
   font-size: 38px;
 }
 
+.panel-title > a {
+  font-size: 30px;
+}
+
+.panel-title > a:visited {
+
+}
+
+.panel-title > a:hover {
+  text-decoration: none;
+}
+
+
+
 .designedby {
   background-color: #3e3e3e;
   color: white;
